@@ -61,10 +61,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2
+CMAKE_SOURCE_DIR = "C:\Users\l4f7\OneDrive\Documents\GitHub Progra II\Template-Method-V2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\l4f7\OneDrive\Documents\GitHub Progra II\Template-Method-V2\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include tst/CMakeFiles/Template-Method-V2_tst.dir/depend.make
@@ -78,30 +78,30 @@ include tst/CMakeFiles/Template-Method-V2_tst.dir/flags.make
 tst/CMakeFiles/Template-Method-V2_tst.dir/PersonManagerTest.cpp.obj: tst/CMakeFiles/Template-Method-V2_tst.dir/flags.make
 tst/CMakeFiles/Template-Method-V2_tst.dir/PersonManagerTest.cpp.obj: tst/CMakeFiles/Template-Method-V2_tst.dir/includes_CXX.rsp
 tst/CMakeFiles/Template-Method-V2_tst.dir/PersonManagerTest.cpp.obj: ../tst/PersonManagerTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tst/CMakeFiles/Template-Method-V2_tst.dir/PersonManagerTest.cpp.obj"
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug\tst && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Template-Method-V2_tst.dir\PersonManagerTest.cpp.obj -c C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\tst\PersonManagerTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\l4f7\OneDrive\Documents\GitHub Progra II\Template-Method-V2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tst/CMakeFiles/Template-Method-V2_tst.dir/PersonManagerTest.cpp.obj"
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1\tst && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Template-Method-V2_tst.dir\PersonManagerTest.cpp.obj -c "C:\Users\l4f7\OneDrive\Documents\GitHub Progra II\Template-Method-V2\tst\PersonManagerTest.cpp"
 
 tst/CMakeFiles/Template-Method-V2_tst.dir/PersonManagerTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Template-Method-V2_tst.dir/PersonManagerTest.cpp.i"
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug\tst && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\tst\PersonManagerTest.cpp > CMakeFiles\Template-Method-V2_tst.dir\PersonManagerTest.cpp.i
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1\tst && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\l4f7\OneDrive\Documents\GitHub Progra II\Template-Method-V2\tst\PersonManagerTest.cpp" > CMakeFiles\Template-Method-V2_tst.dir\PersonManagerTest.cpp.i
 
 tst/CMakeFiles/Template-Method-V2_tst.dir/PersonManagerTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Template-Method-V2_tst.dir/PersonManagerTest.cpp.s"
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug\tst && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\tst\PersonManagerTest.cpp -o CMakeFiles\Template-Method-V2_tst.dir\PersonManagerTest.cpp.s
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1\tst && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\l4f7\OneDrive\Documents\GitHub Progra II\Template-Method-V2\tst\PersonManagerTest.cpp" -o CMakeFiles\Template-Method-V2_tst.dir\PersonManagerTest.cpp.s
 
 tst/CMakeFiles/Template-Method-V2_tst.dir/main.cpp.obj: tst/CMakeFiles/Template-Method-V2_tst.dir/flags.make
 tst/CMakeFiles/Template-Method-V2_tst.dir/main.cpp.obj: tst/CMakeFiles/Template-Method-V2_tst.dir/includes_CXX.rsp
 tst/CMakeFiles/Template-Method-V2_tst.dir/main.cpp.obj: ../tst/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tst/CMakeFiles/Template-Method-V2_tst.dir/main.cpp.obj"
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug\tst && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Template-Method-V2_tst.dir\main.cpp.obj -c C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\tst\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\l4f7\OneDrive\Documents\GitHub Progra II\Template-Method-V2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tst/CMakeFiles/Template-Method-V2_tst.dir/main.cpp.obj"
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1\tst && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Template-Method-V2_tst.dir\main.cpp.obj -c "C:\Users\l4f7\OneDrive\Documents\GitHub Progra II\Template-Method-V2\tst\main.cpp"
 
 tst/CMakeFiles/Template-Method-V2_tst.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Template-Method-V2_tst.dir/main.cpp.i"
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug\tst && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\tst\main.cpp > CMakeFiles\Template-Method-V2_tst.dir\main.cpp.i
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1\tst && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\l4f7\OneDrive\Documents\GitHub Progra II\Template-Method-V2\tst\main.cpp" > CMakeFiles\Template-Method-V2_tst.dir\main.cpp.i
 
 tst/CMakeFiles/Template-Method-V2_tst.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Template-Method-V2_tst.dir/main.cpp.s"
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug\tst && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\tst\main.cpp -o CMakeFiles\Template-Method-V2_tst.dir\main.cpp.s
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1\tst && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\l4f7\OneDrive\Documents\GitHub Progra II\Template-Method-V2\tst\main.cpp" -o CMakeFiles\Template-Method-V2_tst.dir\main.cpp.s
 
 # Object files for target Template-Method-V2_tst
 Template__Method__V2_tst_OBJECTS = \
@@ -119,8 +119,8 @@ tst/Template-Method-V2_tst.exe: lib/libgtestd.a
 tst/Template-Method-V2_tst.exe: tst/CMakeFiles/Template-Method-V2_tst.dir/linklibs.rsp
 tst/Template-Method-V2_tst.exe: tst/CMakeFiles/Template-Method-V2_tst.dir/objects1.rsp
 tst/Template-Method-V2_tst.exe: tst/CMakeFiles/Template-Method-V2_tst.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Template-Method-V2_tst.exe"
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug\tst && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Template-Method-V2_tst.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\l4f7\OneDrive\Documents\GitHub Progra II\Template-Method-V2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Template-Method-V2_tst.exe"
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1\tst && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Template-Method-V2_tst.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tst/CMakeFiles/Template-Method-V2_tst.dir/build: tst/Template-Method-V2_tst.exe
@@ -128,10 +128,10 @@ tst/CMakeFiles/Template-Method-V2_tst.dir/build: tst/Template-Method-V2_tst.exe
 .PHONY : tst/CMakeFiles/Template-Method-V2_tst.dir/build
 
 tst/CMakeFiles/Template-Method-V2_tst.dir/clean:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug\tst && $(CMAKE_COMMAND) -P CMakeFiles\Template-Method-V2_tst.dir\cmake_clean.cmake
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1\tst && $(CMAKE_COMMAND) -P CMakeFiles\Template-Method-V2_tst.dir\cmake_clean.cmake
 .PHONY : tst/CMakeFiles/Template-Method-V2_tst.dir/clean
 
 tst/CMakeFiles/Template-Method-V2_tst.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2 C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\tst C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug\tst C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug\tst\CMakeFiles\Template-Method-V2_tst.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\l4f7\OneDrive\Documents\GitHub Progra II\Template-Method-V2" "C:\Users\l4f7\OneDrive\Documents\GitHub Progra II\Template-Method-V2\tst" "C:\Users\l4f7\OneDrive\Documents\GitHub Progra II\Template-Method-V2\cmake-build-debug" "C:\Users\l4f7\OneDrive\Documents\GitHub Progra II\Template-Method-V2\cmake-build-debug\tst" "C:\Users\l4f7\OneDrive\Documents\GitHub Progra II\Template-Method-V2\cmake-build-debug\tst\CMakeFiles\Template-Method-V2_tst.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : tst/CMakeFiles/Template-Method-V2_tst.dir/depend
 

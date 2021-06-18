@@ -66,10 +66,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2
+CMAKE_SOURCE_DIR = "C:\Users\l4f7\OneDrive\Documents\GitHub Progra II\Template-Method-V2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\l4f7\OneDrive\Documents\GitHub Progra II\Template-Method-V2\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -144,14 +144,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug\CMakeFiles C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug\tst\\CMakeFiles\progress.marks
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tst/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug\CMakeFiles 0
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\l4f7\OneDrive\Documents\GitHub Progra II\Template-Method-V2\cmake-build-debug\CMakeFiles" "C:\Users\l4f7\OneDrive\Documents\GitHub Progra II\Template-Method-V2\cmake-build-debug\tst\\CMakeFiles\progress.marks"
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tst/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\l4f7\OneDrive\Documents\GitHub Progra II\Template-Method-V2\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tst/clean
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tst/clean
 .PHONY : clean
 
 # The main clean target
@@ -161,22 +161,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tst/preinstall
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tst/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tst/preinstall
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tst/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tst/CMakeFiles/Template-Method-V2_tst.dir/rule:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tst/CMakeFiles/Template-Method-V2_tst.dir/rule
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tst/CMakeFiles/Template-Method-V2_tst.dir/rule
 .PHONY : tst/CMakeFiles/Template-Method-V2_tst.dir/rule
 
 # Convenience name for target.
@@ -186,7 +186,7 @@ Template-Method-V2_tst: tst/CMakeFiles/Template-Method-V2_tst.dir/rule
 
 # fast build rule for target.
 Template-Method-V2_tst/fast:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\Template-Method-V2_tst.dir\build.make tst/CMakeFiles/Template-Method-V2_tst.dir/build
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\Template-Method-V2_tst.dir\build.make tst/CMakeFiles/Template-Method-V2_tst.dir/build
 .PHONY : Template-Method-V2_tst/fast
 
 PersonManagerTest.obj: PersonManagerTest.cpp.obj
@@ -195,7 +195,7 @@ PersonManagerTest.obj: PersonManagerTest.cpp.obj
 
 # target to build an object file
 PersonManagerTest.cpp.obj:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\Template-Method-V2_tst.dir\build.make tst/CMakeFiles/Template-Method-V2_tst.dir/PersonManagerTest.cpp.obj
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\Template-Method-V2_tst.dir\build.make tst/CMakeFiles/Template-Method-V2_tst.dir/PersonManagerTest.cpp.obj
 .PHONY : PersonManagerTest.cpp.obj
 
 PersonManagerTest.i: PersonManagerTest.cpp.i
@@ -204,7 +204,7 @@ PersonManagerTest.i: PersonManagerTest.cpp.i
 
 # target to preprocess a source file
 PersonManagerTest.cpp.i:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\Template-Method-V2_tst.dir\build.make tst/CMakeFiles/Template-Method-V2_tst.dir/PersonManagerTest.cpp.i
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\Template-Method-V2_tst.dir\build.make tst/CMakeFiles/Template-Method-V2_tst.dir/PersonManagerTest.cpp.i
 .PHONY : PersonManagerTest.cpp.i
 
 PersonManagerTest.s: PersonManagerTest.cpp.s
@@ -213,7 +213,7 @@ PersonManagerTest.s: PersonManagerTest.cpp.s
 
 # target to generate assembly for a file
 PersonManagerTest.cpp.s:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\Template-Method-V2_tst.dir\build.make tst/CMakeFiles/Template-Method-V2_tst.dir/PersonManagerTest.cpp.s
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\Template-Method-V2_tst.dir\build.make tst/CMakeFiles/Template-Method-V2_tst.dir/PersonManagerTest.cpp.s
 .PHONY : PersonManagerTest.cpp.s
 
 main.obj: main.cpp.obj
@@ -222,7 +222,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\Template-Method-V2_tst.dir\build.make tst/CMakeFiles/Template-Method-V2_tst.dir/main.cpp.obj
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\Template-Method-V2_tst.dir\build.make tst/CMakeFiles/Template-Method-V2_tst.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -231,7 +231,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\Template-Method-V2_tst.dir\build.make tst/CMakeFiles/Template-Method-V2_tst.dir/main.cpp.i
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\Template-Method-V2_tst.dir\build.make tst/CMakeFiles/Template-Method-V2_tst.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -240,7 +240,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\Template-Method-V2_tst.dir\build.make tst/CMakeFiles/Template-Method-V2_tst.dir/main.cpp.s
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f tst\CMakeFiles\Template-Method-V2_tst.dir\build.make tst/CMakeFiles/Template-Method-V2_tst.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -273,6 +273,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

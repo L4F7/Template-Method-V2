@@ -66,10 +66,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2
+CMAKE_SOURCE_DIR = "C:\Users\l4f7\OneDrive\Documents\GitHub Progra II\Template-Method-V2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\l4f7\OneDrive\Documents\GitHub Progra II\Template-Method-V2\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -144,14 +144,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug\CMakeFiles C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug\src\\CMakeFiles\progress.marks
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug\CMakeFiles 0
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\l4f7\OneDrive\Documents\GitHub Progra II\Template-Method-V2\cmake-build-debug\CMakeFiles" "C:\Users\l4f7\OneDrive\Documents\GitHub Progra II\Template-Method-V2\cmake-build-debug\src\\CMakeFiles\progress.marks"
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\l4f7\OneDrive\Documents\GitHub Progra II\Template-Method-V2\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/clean
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -161,22 +161,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/preinstall
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/preinstall
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/Template-Method-V2_run.dir/rule:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/Template-Method-V2_run.dir/rule
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/Template-Method-V2_run.dir/rule
 .PHONY : src/CMakeFiles/Template-Method-V2_run.dir/rule
 
 # Convenience name for target.
@@ -186,12 +186,12 @@ Template-Method-V2_run: src/CMakeFiles/Template-Method-V2_run.dir/rule
 
 # fast build rule for target.
 Template-Method-V2_run/fast:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/build
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/build
 .PHONY : Template-Method-V2_run/fast
 
 # Convenience name for target.
 src/CMakeFiles/Template-Method-V2_lib.dir/rule:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/Template-Method-V2_lib.dir/rule
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/Template-Method-V2_lib.dir/rule
 .PHONY : src/CMakeFiles/Template-Method-V2_lib.dir/rule
 
 # Convenience name for target.
@@ -201,7 +201,7 @@ Template-Method-V2_lib: src/CMakeFiles/Template-Method-V2_lib.dir/rule
 
 # fast build rule for target.
 Template-Method-V2_lib/fast:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/build
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/build
 .PHONY : Template-Method-V2_lib/fast
 
 FileManager.obj: FileManager.cpp.obj
@@ -210,8 +210,8 @@ FileManager.obj: FileManager.cpp.obj
 
 # target to build an object file
 FileManager.cpp.obj:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/FileManager.cpp.obj
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/FileManager.cpp.obj
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/FileManager.cpp.obj
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/FileManager.cpp.obj
 .PHONY : FileManager.cpp.obj
 
 FileManager.i: FileManager.cpp.i
@@ -220,8 +220,8 @@ FileManager.i: FileManager.cpp.i
 
 # target to preprocess a source file
 FileManager.cpp.i:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/FileManager.cpp.i
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/FileManager.cpp.i
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/FileManager.cpp.i
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/FileManager.cpp.i
 .PHONY : FileManager.cpp.i
 
 FileManager.s: FileManager.cpp.s
@@ -230,8 +230,8 @@ FileManager.s: FileManager.cpp.s
 
 # target to generate assembly for a file
 FileManager.cpp.s:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/FileManager.cpp.s
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/FileManager.cpp.s
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/FileManager.cpp.s
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/FileManager.cpp.s
 .PHONY : FileManager.cpp.s
 
 FileManagerBinary.obj: FileManagerBinary.cpp.obj
@@ -240,8 +240,8 @@ FileManagerBinary.obj: FileManagerBinary.cpp.obj
 
 # target to build an object file
 FileManagerBinary.cpp.obj:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/FileManagerBinary.cpp.obj
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/FileManagerBinary.cpp.obj
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/FileManagerBinary.cpp.obj
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/FileManagerBinary.cpp.obj
 .PHONY : FileManagerBinary.cpp.obj
 
 FileManagerBinary.i: FileManagerBinary.cpp.i
@@ -250,8 +250,8 @@ FileManagerBinary.i: FileManagerBinary.cpp.i
 
 # target to preprocess a source file
 FileManagerBinary.cpp.i:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/FileManagerBinary.cpp.i
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/FileManagerBinary.cpp.i
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/FileManagerBinary.cpp.i
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/FileManagerBinary.cpp.i
 .PHONY : FileManagerBinary.cpp.i
 
 FileManagerBinary.s: FileManagerBinary.cpp.s
@@ -260,8 +260,8 @@ FileManagerBinary.s: FileManagerBinary.cpp.s
 
 # target to generate assembly for a file
 FileManagerBinary.cpp.s:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/FileManagerBinary.cpp.s
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/FileManagerBinary.cpp.s
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/FileManagerBinary.cpp.s
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/FileManagerBinary.cpp.s
 .PHONY : FileManagerBinary.cpp.s
 
 FileManagerText.obj: FileManagerText.cpp.obj
@@ -270,8 +270,8 @@ FileManagerText.obj: FileManagerText.cpp.obj
 
 # target to build an object file
 FileManagerText.cpp.obj:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/FileManagerText.cpp.obj
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/FileManagerText.cpp.obj
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/FileManagerText.cpp.obj
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/FileManagerText.cpp.obj
 .PHONY : FileManagerText.cpp.obj
 
 FileManagerText.i: FileManagerText.cpp.i
@@ -280,8 +280,8 @@ FileManagerText.i: FileManagerText.cpp.i
 
 # target to preprocess a source file
 FileManagerText.cpp.i:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/FileManagerText.cpp.i
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/FileManagerText.cpp.i
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/FileManagerText.cpp.i
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/FileManagerText.cpp.i
 .PHONY : FileManagerText.cpp.i
 
 FileManagerText.s: FileManagerText.cpp.s
@@ -290,8 +290,8 @@ FileManagerText.s: FileManagerText.cpp.s
 
 # target to generate assembly for a file
 FileManagerText.cpp.s:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/FileManagerText.cpp.s
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/FileManagerText.cpp.s
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/FileManagerText.cpp.s
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/FileManagerText.cpp.s
 .PHONY : FileManagerText.cpp.s
 
 FileManagerTextCSV.obj: FileManagerTextCSV.cpp.obj
@@ -300,8 +300,8 @@ FileManagerTextCSV.obj: FileManagerTextCSV.cpp.obj
 
 # target to build an object file
 FileManagerTextCSV.cpp.obj:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/FileManagerTextCSV.cpp.obj
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/FileManagerTextCSV.cpp.obj
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/FileManagerTextCSV.cpp.obj
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/FileManagerTextCSV.cpp.obj
 .PHONY : FileManagerTextCSV.cpp.obj
 
 FileManagerTextCSV.i: FileManagerTextCSV.cpp.i
@@ -310,8 +310,8 @@ FileManagerTextCSV.i: FileManagerTextCSV.cpp.i
 
 # target to preprocess a source file
 FileManagerTextCSV.cpp.i:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/FileManagerTextCSV.cpp.i
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/FileManagerTextCSV.cpp.i
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/FileManagerTextCSV.cpp.i
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/FileManagerTextCSV.cpp.i
 .PHONY : FileManagerTextCSV.cpp.i
 
 FileManagerTextCSV.s: FileManagerTextCSV.cpp.s
@@ -320,8 +320,8 @@ FileManagerTextCSV.s: FileManagerTextCSV.cpp.s
 
 # target to generate assembly for a file
 FileManagerTextCSV.cpp.s:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/FileManagerTextCSV.cpp.s
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/FileManagerTextCSV.cpp.s
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/FileManagerTextCSV.cpp.s
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/FileManagerTextCSV.cpp.s
 .PHONY : FileManagerTextCSV.cpp.s
 
 FileManagerTextJSON.obj: FileManagerTextJSON.cpp.obj
@@ -330,8 +330,8 @@ FileManagerTextJSON.obj: FileManagerTextJSON.cpp.obj
 
 # target to build an object file
 FileManagerTextJSON.cpp.obj:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/FileManagerTextJSON.cpp.obj
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/FileManagerTextJSON.cpp.obj
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/FileManagerTextJSON.cpp.obj
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/FileManagerTextJSON.cpp.obj
 .PHONY : FileManagerTextJSON.cpp.obj
 
 FileManagerTextJSON.i: FileManagerTextJSON.cpp.i
@@ -340,8 +340,8 @@ FileManagerTextJSON.i: FileManagerTextJSON.cpp.i
 
 # target to preprocess a source file
 FileManagerTextJSON.cpp.i:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/FileManagerTextJSON.cpp.i
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/FileManagerTextJSON.cpp.i
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/FileManagerTextJSON.cpp.i
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/FileManagerTextJSON.cpp.i
 .PHONY : FileManagerTextJSON.cpp.i
 
 FileManagerTextJSON.s: FileManagerTextJSON.cpp.s
@@ -350,8 +350,8 @@ FileManagerTextJSON.s: FileManagerTextJSON.cpp.s
 
 # target to generate assembly for a file
 FileManagerTextJSON.cpp.s:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/FileManagerTextJSON.cpp.s
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/FileManagerTextJSON.cpp.s
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/FileManagerTextJSON.cpp.s
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/FileManagerTextJSON.cpp.s
 .PHONY : FileManagerTextJSON.cpp.s
 
 FileManagerTextYAML.obj: FileManagerTextYAML.cpp.obj
@@ -360,8 +360,8 @@ FileManagerTextYAML.obj: FileManagerTextYAML.cpp.obj
 
 # target to build an object file
 FileManagerTextYAML.cpp.obj:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/FileManagerTextYAML.cpp.obj
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/FileManagerTextYAML.cpp.obj
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/FileManagerTextYAML.cpp.obj
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/FileManagerTextYAML.cpp.obj
 .PHONY : FileManagerTextYAML.cpp.obj
 
 FileManagerTextYAML.i: FileManagerTextYAML.cpp.i
@@ -370,8 +370,8 @@ FileManagerTextYAML.i: FileManagerTextYAML.cpp.i
 
 # target to preprocess a source file
 FileManagerTextYAML.cpp.i:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/FileManagerTextYAML.cpp.i
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/FileManagerTextYAML.cpp.i
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/FileManagerTextYAML.cpp.i
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/FileManagerTextYAML.cpp.i
 .PHONY : FileManagerTextYAML.cpp.i
 
 FileManagerTextYAML.s: FileManagerTextYAML.cpp.s
@@ -380,8 +380,8 @@ FileManagerTextYAML.s: FileManagerTextYAML.cpp.s
 
 # target to generate assembly for a file
 FileManagerTextYAML.cpp.s:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/FileManagerTextYAML.cpp.s
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/FileManagerTextYAML.cpp.s
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/FileManagerTextYAML.cpp.s
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/FileManagerTextYAML.cpp.s
 .PHONY : FileManagerTextYAML.cpp.s
 
 IReadWritePersonList.obj: IReadWritePersonList.cpp.obj
@@ -390,8 +390,8 @@ IReadWritePersonList.obj: IReadWritePersonList.cpp.obj
 
 # target to build an object file
 IReadWritePersonList.cpp.obj:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/IReadWritePersonList.cpp.obj
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/IReadWritePersonList.cpp.obj
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/IReadWritePersonList.cpp.obj
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/IReadWritePersonList.cpp.obj
 .PHONY : IReadWritePersonList.cpp.obj
 
 IReadWritePersonList.i: IReadWritePersonList.cpp.i
@@ -400,8 +400,8 @@ IReadWritePersonList.i: IReadWritePersonList.cpp.i
 
 # target to preprocess a source file
 IReadWritePersonList.cpp.i:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/IReadWritePersonList.cpp.i
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/IReadWritePersonList.cpp.i
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/IReadWritePersonList.cpp.i
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/IReadWritePersonList.cpp.i
 .PHONY : IReadWritePersonList.cpp.i
 
 IReadWritePersonList.s: IReadWritePersonList.cpp.s
@@ -410,8 +410,8 @@ IReadWritePersonList.s: IReadWritePersonList.cpp.s
 
 # target to generate assembly for a file
 IReadWritePersonList.cpp.s:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/IReadWritePersonList.cpp.s
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/IReadWritePersonList.cpp.s
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/IReadWritePersonList.cpp.s
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/IReadWritePersonList.cpp.s
 .PHONY : IReadWritePersonList.cpp.s
 
 Person.obj: Person.cpp.obj
@@ -420,8 +420,8 @@ Person.obj: Person.cpp.obj
 
 # target to build an object file
 Person.cpp.obj:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/Person.cpp.obj
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/Person.cpp.obj
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/Person.cpp.obj
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/Person.cpp.obj
 .PHONY : Person.cpp.obj
 
 Person.i: Person.cpp.i
@@ -430,8 +430,8 @@ Person.i: Person.cpp.i
 
 # target to preprocess a source file
 Person.cpp.i:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/Person.cpp.i
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/Person.cpp.i
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/Person.cpp.i
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/Person.cpp.i
 .PHONY : Person.cpp.i
 
 Person.s: Person.cpp.s
@@ -440,8 +440,8 @@ Person.s: Person.cpp.s
 
 # target to generate assembly for a file
 Person.cpp.s:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/Person.cpp.s
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/Person.cpp.s
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/Person.cpp.s
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/Person.cpp.s
 .PHONY : Person.cpp.s
 
 PersonManager.obj: PersonManager.cpp.obj
@@ -450,8 +450,8 @@ PersonManager.obj: PersonManager.cpp.obj
 
 # target to build an object file
 PersonManager.cpp.obj:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/PersonManager.cpp.obj
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/PersonManager.cpp.obj
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/PersonManager.cpp.obj
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/PersonManager.cpp.obj
 .PHONY : PersonManager.cpp.obj
 
 PersonManager.i: PersonManager.cpp.i
@@ -460,8 +460,8 @@ PersonManager.i: PersonManager.cpp.i
 
 # target to preprocess a source file
 PersonManager.cpp.i:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/PersonManager.cpp.i
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/PersonManager.cpp.i
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/PersonManager.cpp.i
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/PersonManager.cpp.i
 .PHONY : PersonManager.cpp.i
 
 PersonManager.s: PersonManager.cpp.s
@@ -470,8 +470,8 @@ PersonManager.s: PersonManager.cpp.s
 
 # target to generate assembly for a file
 PersonManager.cpp.s:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/PersonManager.cpp.s
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/PersonManager.cpp.s
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/PersonManager.cpp.s
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/PersonManager.cpp.s
 .PHONY : PersonManager.cpp.s
 
 main.obj: main.cpp.obj
@@ -480,8 +480,8 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/main.cpp.obj
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/main.cpp.obj
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/main.cpp.obj
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -490,8 +490,8 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/main.cpp.i
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/main.cpp.i
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/main.cpp.i
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -500,8 +500,8 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/main.cpp.s
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/main.cpp.s
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_run.dir\build.make src/CMakeFiles/Template-Method-V2_run.dir/main.cpp.s
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Template-Method-V2_lib.dir\build.make src/CMakeFiles/Template-Method-V2_lib.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -559,6 +559,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\l4f7\OneDrive\Documents\ClionProjects\Template-Method-V2\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\l4f7\OneDrive\DOCUME~1\GITHUB~1\TEMPLA~2\CMAKE-~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

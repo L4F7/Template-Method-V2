@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/l4f7/OneDrive/Documents/ClionProjects/Template-Method-V2/src
+# Install script for directory: C:/Users/l4f7/OneDrive/Documents/GitHub Progra II/Template-Method-V2/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

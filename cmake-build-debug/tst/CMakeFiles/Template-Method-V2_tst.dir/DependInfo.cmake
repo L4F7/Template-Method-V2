@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/l4f7/OneDrive/Documents/ClionProjects/Template-Method-V2/tst/PersonManagerTest.cpp" "C:/Users/l4f7/OneDrive/Documents/ClionProjects/Template-Method-V2/cmake-build-debug/tst/CMakeFiles/Template-Method-V2_tst.dir/PersonManagerTest.cpp.obj"
-  "C:/Users/l4f7/OneDrive/Documents/ClionProjects/Template-Method-V2/tst/main.cpp" "C:/Users/l4f7/OneDrive/Documents/ClionProjects/Template-Method-V2/cmake-build-debug/tst/CMakeFiles/Template-Method-V2_tst.dir/main.cpp.obj"
+  "C:/Users/l4f7/OneDrive/Documents/GitHub Progra II/Template-Method-V2/tst/PersonManagerTest.cpp" "C:/Users/l4f7/OneDrive/Documents/GitHub Progra II/Template-Method-V2/cmake-build-debug/tst/CMakeFiles/Template-Method-V2_tst.dir/PersonManagerTest.cpp.obj"
+  "C:/Users/l4f7/OneDrive/Documents/GitHub Progra II/Template-Method-V2/tst/main.cpp" "C:/Users/l4f7/OneDrive/Documents/GitHub Progra II/Template-Method-V2/cmake-build-debug/tst/CMakeFiles/Template-Method-V2_tst.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,8 +18,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/l4f7/OneDrive/Documents/ClionProjects/Template-Method-V2/cmake-build-debug/src/CMakeFiles/Template-Method-V2_lib.dir/DependInfo.cmake"
-  "C:/Users/l4f7/OneDrive/Documents/ClionProjects/Template-Method-V2/cmake-build-debug/lib/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "C:/Users/l4f7/OneDrive/Documents/GitHub Progra II/Template-Method-V2/cmake-build-debug/src/CMakeFiles/Template-Method-V2_lib.dir/DependInfo.cmake"
+  "C:/Users/l4f7/OneDrive/Documents/GitHub Progra II/Template-Method-V2/cmake-build-debug/lib/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
