@@ -12,8 +12,8 @@
 
 class Person {
 private:
-    char name[50];
-    char id[10];
+    char name[50]{};
+    char id[10]{};
 public:
     Person();
 

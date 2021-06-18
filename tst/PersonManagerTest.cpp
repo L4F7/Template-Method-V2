@@ -5,9 +5,9 @@
 #include "gtest/gtest.h"
 #include "PersonManager.h"
 #include "FileManagerBinary.h"
-/*#include "FileManagerTextCSV.h"
+#include "FileManagerTextCSV.h"
 #include "FileManagerTextJSON.h"
-#include "FileManagerTextYAML.h"*/
+//#include "FileManagerTextYAML.h"
 
 TEST(FileManagerBinaryTestSuit, BinarySaveAndReadPersonListTest) {
     PersonManager personManager1;
@@ -40,7 +40,7 @@ TEST(FileManagerBinaryTestSuit, BinarySaveAndReadPersonListTest) {
     EXPECT_EQ(personManager1.toString(), personManager2.toString());
 }
 
-/*TEST(FileManagerTextCSVTestSuit, CSVSaveAndReadPersonListTest) {
+TEST(FileManagerTextCSVTestSuit, CSVSaveAndReadPersonListTest) {
     PersonManager personManager1;
     PersonManager personManager2;
 
@@ -63,8 +63,10 @@ TEST(FileManagerBinaryTestSuit, BinarySaveAndReadPersonListTest) {
     personManager1.addPerson(person5);
 
     IReadWritePersonList *readWritePersonList = new FileManagerTextCSV;
-    personManager1.write(readWritePersonList, "PersonList.bin");
-    personManager2.read(readWritePersonList, "PersonList.bin");
+    personManager1.write(readWritePersonList, "PersonList.csv");
+    personManager2.read(readWritePersonList, "PersonList.csv");
+
+    std::cout << personManager2.toString();
 
     EXPECT_EQ(personManager1.toString(), personManager2.toString());
 }
@@ -92,13 +94,15 @@ TEST(FileManagerTextJSONTestSuit, JSONSaveAndReadPersonListTest) {
     personManager1.addPerson(person5);
 
     IReadWritePersonList *readWritePersonList = new FileManagerTextJSON;
-    personManager1.write(readWritePersonList, "PersonList.bin");
-    personManager2.read(readWritePersonList, "PersonList.bin");
+    personManager1.write(readWritePersonList, "PersonList.json");
+    personManager2.read(readWritePersonList, "PersonList.json");
+
+    std::cout << personManager2.toString();
 
     EXPECT_EQ(personManager1.toString(), personManager2.toString());
 }
 
-TEST(FileManagerTextYAMLTestSuit, YAMLSaveAndReadPersonListTest) {
+/*TEST(FileManagerTextYAMLTestSuit, YAMLSaveAndReadPersonListTest) {
     PersonManager personManager1;
     PersonManager personManager2;
 

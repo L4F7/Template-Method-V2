@@ -247,8 +247,8 @@ src/CMakeFiles/Template-Method-V2_lib.dir/clean:
 # Target rules for target tst/CMakeFiles/Template-Method-V2_tst.dir
 
 # All Build rule for target.
-tst/CMakeFiles/Template-Method-V2_tst.dir/all: lib/googletest/googletest/CMakeFiles/gtest.dir/all
 tst/CMakeFiles/Template-Method-V2_tst.dir/all: src/CMakeFiles/Template-Method-V2_lib.dir/all
+tst/CMakeFiles/Template-Method-V2_tst.dir/all: lib/googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f tst\CMakeFiles\Template-Method-V2_tst.dir\build.make tst/CMakeFiles/Template-Method-V2_tst.dir/depend
 	$(MAKE) $(MAKESILENT) -f tst\CMakeFiles\Template-Method-V2_tst.dir\build.make tst/CMakeFiles/Template-Method-V2_tst.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\l4f7\OneDrive\Documents\GitHub Progra II\Template-Method-V2\cmake-build-debug\CMakeFiles" --progress-num=23,24,25 "Built target Template-Method-V2_tst"

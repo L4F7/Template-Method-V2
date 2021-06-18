@@ -22,15 +22,16 @@ tst/CMakeFiles/Template-Method-V2_tst.dir/PersonManagerTest.cpp.obj
  ../lib/googletest/googletest/include/gtest/internal/gtest-port.h
  ../lib/googletest/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest/googletest/include/gtest/internal/gtest-type-util.h
+ ../lib/nlohmann/json.hpp
  ../src/FileManager.h
  ../src/FileManagerBinary.h
  ../src/FileManagerText.h
+ ../src/FileManagerTextCSV.h
  ../src/FileManagerTextJSON.h
- ../src/FileManagerTextYAML.h
  ../src/IReadWritePersonList.h
  ../src/Person.h
  ../src/PersonManager.h
- C:/Users/l4f7/OneDrive/Documents/ClionProjects/Template-Method-V2/tst/PersonManagerTest.cpp
+ C:/Users/l4f7/OneDrive/Documents/GitHub Progra II/Template-Method-V2/tst/PersonManagerTest.cpp
 tst/CMakeFiles/Template-Method-V2_tst.dir/main.cpp.obj
  ../lib/googletest/googletest/include/gtest/gtest-death-test.h
  ../lib/googletest/googletest/include/gtest/gtest-matchers.h
@@ -52,4 +53,4 @@ tst/CMakeFiles/Template-Method-V2_tst.dir/main.cpp.obj
  ../lib/googletest/googletest/include/gtest/internal/gtest-port.h
  ../lib/googletest/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest/googletest/include/gtest/internal/gtest-type-util.h
- C:/Users/l4f7/OneDrive/Documents/ClionProjects/Template-Method-V2/tst/main.cpp
+ C:/Users/l4f7/OneDrive/Documents/GitHub Progra II/Template-Method-V2/tst/main.cpp

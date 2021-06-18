@@ -14,7 +14,7 @@ bool FileManagerBinary::openFileWriteOnly(std::ofstream &outputFile, std::string
 }
 
 bool FileManagerBinary::writeFileData(std::ofstream &outputFile, std::vector<Person> personList) {
-    for (auto & i : personList) {
+    for (auto &i : personList) {
         outputFile.write((char *) &i, sizeof(i));
     }
     return true;
@@ -34,3 +34,11 @@ std::vector<Person> FileManagerBinary::readFileData(std::ifstream &inputFile) {
     }
     return personList;
 }
+
+std::string FileManagerBinary::serialize(std::vector<Person> personList) { return ""; }
+
+bool FileManagerBinary::writeSerializedFileData(std::ofstream &outputFile, std::string serializedData) { return false; }
+
+std::string FileManagerBinary::readFileDataToDeserialize(std::ifstream &inputFile) { return ""; }
+
+std::vector<Person> FileManagerBinary::deserialize(std::string dataFromJSONFile) { return std::vector<Person>(); }

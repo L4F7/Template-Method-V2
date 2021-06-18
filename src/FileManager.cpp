@@ -12,7 +12,12 @@ bool FileManager::writeList(std::string filename, std::vector<Person> personList
         std::ofstream outputFile;
         openFileWriteOnly(outputFile, filename);
         outputFile.exceptions(std::ifstream::failbit | std::ifstream::badbit);
-        writeFileData(outputFile, personList);
+        if (clientWantsToSerialize()) {
+            std::string serializedData = serialize(personList);
+            writeSerializedFileData(outputFile, serializedData);
+        } else {
+            writeFileData(outputFile, personList);
+        }
         closeFileWriteOnly(outputFile);
     }
     catch (std::ifstream::failure e) {
@@ -27,7 +32,12 @@ std::vector<Person> FileManager::readList(std::string filename) {
     try {
         std::ifstream inputFile;
         openFileReadOnly(inputFile, filename);
-        personList = readFileData(inputFile);
+        if (clientWantsToDeserialize()) {
+            std::string deserializedData = readFileDataToDeserialize(inputFile);
+            personList = deserialize(deserializedData);
+        } else {
+            personList = readFileData(inputFile);
+        }
         closeFileReadOnly(inputFile);
     }
     catch (std::ifstream::failure e) {
@@ -54,4 +64,12 @@ bool FileManager::closeFileWriteOnly(std::ofstream &outputFile) {
 bool FileManager::closeFileReadOnly(std::ifstream &inputFile) {
     inputFile.close();
     return true;
+}
+
+bool FileManager::clientWantsToSerialize() {
+    return false;
+}
+
+bool FileManager::clientWantsToDeserialize() {
+    return false;
 }

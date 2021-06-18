@@ -25,6 +25,7 @@ src/CMakeFiles/Template-Method-V2_lib.dir/FileManagerTextCSV.cpp.obj: ../src/Fil
 src/CMakeFiles/Template-Method-V2_lib.dir/FileManagerTextCSV.cpp.obj: ../src/IReadWritePersonList.h
 src/CMakeFiles/Template-Method-V2_lib.dir/FileManagerTextCSV.cpp.obj: ../src/Person.h
 
+src/CMakeFiles/Template-Method-V2_lib.dir/FileManagerTextJSON.cpp.obj: ../lib/nlohmann/json.hpp
 src/CMakeFiles/Template-Method-V2_lib.dir/FileManagerTextJSON.cpp.obj: ../src/FileManager.h
 src/CMakeFiles/Template-Method-V2_lib.dir/FileManagerTextJSON.cpp.obj: ../src/FileManagerText.h
 src/CMakeFiles/Template-Method-V2_lib.dir/FileManagerTextJSON.cpp.obj: ../src/FileManagerTextJSON.cpp
