@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/l4f7/OneDrive/Documents/ClionProjects/Template-Method-V2/src/Person.cpp
+Person.h
+C:/Users/l4f7/OneDrive/Documents/ClionProjects/Template-Method-V2/src/Person.h
+
+C:/Users/l4f7/OneDrive/Documents/ClionProjects/Template-Method-V2/src/Person.h
+iostream
+-
+string
+C:/Users/l4f7/OneDrive/Documents/ClionProjects/Template-Method-V2/src/string
+sstream
+C:/Users/l4f7/OneDrive/Documents/ClionProjects/Template-Method-V2/src/sstream
+cstring
+-
+
