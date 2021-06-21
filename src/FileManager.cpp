@@ -46,12 +46,12 @@ std::vector<Person> FileManager::readList(std::string filename) {
     return personList;
 }
 
-bool FileManager::openFileWriteOnly(std::ofstream &outputFile, std::string filename) {
+bool FileManager::openFileWriteOnly(std::ofstream &outputFile, const std::string &filename) {
     outputFile.open(filename, std::ofstream::out);
     return true;
 }
 
-bool FileManager::openFileReadOnly(std::ifstream &inputFile, std::string filename) {
+bool FileManager::openFileReadOnly(std::ifstream &inputFile, const std::string &filename) {
     inputFile.open(filename, std::ofstream::out);
     return true;
 }

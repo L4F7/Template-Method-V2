@@ -12,7 +12,7 @@ public:
     ~FileManagerBinary() override;
 
     //Write data
-    bool openFileWriteOnly(std::ofstream &outputFile, std::string filename) override;
+    bool openFileWriteOnly(std::ofstream &outputFile, const std::string &filename) override;
 
     std::string serialize(std::vector<Person> personList) override;
 
@@ -21,7 +21,7 @@ public:
     bool writeFileData(std::ofstream &outfile, std::vector<Person> personList) override;
 
     //Read data
-    bool openFileReadOnly(std::ifstream &inputFile, std::string filename) override;
+    bool openFileReadOnly(std::ifstream &inputFile, const std::string &filename) override;
 
     std::string readFileDataToDeserialize(std::ifstream &inputFile) override;
 

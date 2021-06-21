@@ -13,22 +13,19 @@ TEST(FileManagerBinaryTestSuit, BinarySaveAndReadPersonListTest) {
     PersonManager personManager1;
     PersonManager personManager2;
 
-    char person1name[50] = "Luis", person1id[10] = "115";
-    char person2name[50] = "Mario", person2id[10] = "116";
-    char person3name[50] = "Jose", person3id[10] = "117";
-    char person4name[50] = "Maria", person4id[10] = "118";
-    char person5name[50] = "Pedro", person5id[10] = "119";
-
-    Person person1(person1name, person1id);
-    Person person2(person2name, person2id);
-    Person person3(person3name, person3id);
-    Person person4(person4name, person4id);
-    Person person5(person5name, person5id);
-
+    Person person1("person_1_name", "person_1_id");
     personManager1.addPerson(person1);
+
+    Person person2("person_2_name", "person_2_id");
     personManager1.addPerson(person2);
+
+    Person person3("person_3_name", "person_3_id");
     personManager1.addPerson(person3);
+
+    Person person4("person_4_name", "person_4_id");
     personManager1.addPerson(person4);
+
+    Person person5("person_5_name", "person_5_id");
     personManager1.addPerson(person5);
 
     IReadWritePersonList *readWritePersonList = new FileManagerBinary;
@@ -44,22 +41,19 @@ TEST(FileManagerTextCSVTestSuit, CSVSaveAndReadPersonListTest) {
     PersonManager personManager1;
     PersonManager personManager2;
 
-    char person1name[50] = "Luis", person1id[10] = "115";
-    char person2name[50] = "Mario", person2id[10] = "116";
-    char person3name[50] = "Jose", person3id[10] = "117";
-    char person4name[50] = "Maria", person4id[10] = "118";
-    char person5name[50] = "Pedro", person5id[10] = "119";
-
-    Person person1(person1name, person1id);
-    Person person2(person2name, person2id);
-    Person person3(person3name, person3id);
-    Person person4(person4name, person4id);
-    Person person5(person5name, person5id);
-
+    Person person1("person_1_name", "person_1_id");
     personManager1.addPerson(person1);
+
+    Person person2("person_2_name", "person_2_id");
     personManager1.addPerson(person2);
+
+    Person person3("person_3_name", "person_3_id");
     personManager1.addPerson(person3);
+
+    Person person4("person_4_name", "person_4_id");
     personManager1.addPerson(person4);
+
+    Person person5("person_5_name", "person_5_id");
     personManager1.addPerson(person5);
 
     IReadWritePersonList *readWritePersonList = new FileManagerTextCSV;
@@ -75,22 +69,19 @@ TEST(FileManagerTextJSONTestSuit, JSONSaveAndReadPersonListTest) {
     PersonManager personManager1;
     PersonManager personManager2;
 
-    char person1name[50] = "Luis", person1id[10] = "115";
-    char person2name[50] = "Mario", person2id[10] = "116";
-    char person3name[50] = "Jose", person3id[10] = "117";
-    char person4name[50] = "Maria", person4id[10] = "118";
-    char person5name[50] = "Pedro", person5id[10] = "119";
-
-    Person person1(person1name, person1id);
-    Person person2(person2name, person2id);
-    Person person3(person3name, person3id);
-    Person person4(person4name, person4id);
-    Person person5(person5name, person5id);
-
+    Person person1("person_1_name", "person_1_id");
     personManager1.addPerson(person1);
+
+    Person person2("person_2_name", "person_2_id");
     personManager1.addPerson(person2);
+
+    Person person3("person_3_name", "person_3_id");
     personManager1.addPerson(person3);
+
+    Person person4("person_4_name", "person_4_id");
     personManager1.addPerson(person4);
+
+    Person person5("person_5_name", "person_5_id");
     personManager1.addPerson(person5);
 
     IReadWritePersonList *readWritePersonList = new FileManagerTextJSON;
@@ -106,17 +97,20 @@ TEST(FileManagerTextJSONTestSuit, JSONSaveAndReadPersonListTest) {
     PersonManager personManager1;
     PersonManager personManager2;
 
-    char person1name[50] = "Luis", person1id[10] = "115";
-    char person2name[50] = "Mario", person2id[10] = "116";
-    char person3name[50] = "Jose", person3id[10] = "117";
-    char person4name[50] = "Maria", person4id[10] = "118";
-    char person5name[50] = "Pedro", person5id[10] = "119";
+    Person person1("person_1_name", "person_1_id");
+    personManager1.addPerson(person1);
 
-    Person person1(person1name, person1id);
-    Person person2(person2name, person2id);
-    Person person3(person3name, person3id);
-    Person person4(person4name, person4id);
-    Person person5(person5name, person5id);
+    Person person2("person_2_name", "person_2_id");
+    personManager1.addPerson(person2);
+
+    Person person3("person_3_name", "person_3_id");
+    personManager1.addPerson(person3);
+
+    Person person4("person_4_name", "person_4_id");
+    personManager1.addPerson(person4);
+
+    Person person5("person_5_name", "person_5_id");
+    personManager1.addPerson(person5);
 
     personManager1.addPerson(person1);
     personManager1.addPerson(person2);

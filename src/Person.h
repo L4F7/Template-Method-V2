@@ -8,28 +8,28 @@
 #include <iostream>
 #include "string"
 #include "sstream"
-#include <cstring>
 
 class Person {
 private:
-    char name[50]{};
-    char id[10]{};
+    std::string name;
+    std::string id;
 public:
     Person();
 
-    Person(char *name, char *id);
+    Person(const std::string &name, const std::string &id);
 
     virtual ~Person();
 
-    const char *getName() const;
+    virtual const std::string &getName() const;
 
-    void setName(char *name);
+    virtual void setName(const std::string &name);
 
-    const char *getId() const;
+    virtual const std::string &getId() const;
 
-    void setId(char *id);
+    virtual void setId(const std::string &id);
 
     std::string toString();
+
 };
 
 

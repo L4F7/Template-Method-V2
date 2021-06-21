@@ -18,21 +18,12 @@ bool FileManagerTextCSV::writeFileData(std::ofstream &outfile, std::vector<Perso
 std::vector<Person> FileManagerTextCSV::readFileData(std::ifstream &inputFile) {
     std::vector<Person> personList;
     Person person;
-    std::string strName, strId;
-
-    while (std::getline(inputFile, strName, ',')) {
-
-        std::getline(inputFile, strId, '\n');
-
-        char charName[strName.length() + 1], charId[strId.length() + 1];
-
-        strcpy(charName, strName.c_str()), strcpy(charId, strId.c_str());
-
-        person.setName(charName), person.setId(charId);
-
+    std::string name, id;
+    while (std::getline(inputFile, name, ',')) {
+        std::getline(inputFile, id, '\n');
+        person.setName(name), person.setId(id);
         personList.push_back(person);
     }
-
     return personList;
 }
 

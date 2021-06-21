@@ -17,7 +17,7 @@ public:
     bool writeList(std::string filename, std::vector<Person> personList) override;
 
     //Write algorithm methods
-    virtual bool openFileWriteOnly(std::ofstream &outputFile, std::string filename);
+    virtual bool openFileWriteOnly(std::ofstream &outputFile, const std::string &filename);
 
     virtual std::string serialize(std::vector<Person> personList) = 0;
 
@@ -31,7 +31,7 @@ public:
     std::vector<Person> readList(std::string filename) override;
 
     //Read algorithm methods
-    virtual bool openFileReadOnly(std::ifstream &inputFile, std::string filename);
+    virtual bool openFileReadOnly(std::ifstream &inputFile, const std::string &filename);
 
     virtual std::string readFileDataToDeserialize(std::ifstream &inputFile) = 0;
 

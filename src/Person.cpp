@@ -6,27 +6,25 @@
 
 Person::Person() = default;
 
-Person::Person(char *name, char *id) {
-    std::strcpy(this->id, id);
-    std::strcpy(this->name, name);
-}
+Person::Person(const std::string &name, const std::string &id)
+        : name(name), id(id) {}
 
 Person::~Person() = default;
 
-const char *Person::getName() const {
+const std::string &Person::getName() const {
     return name;
 }
 
-void Person::setName(char *pName) {
-    std::strcpy(this->name, pName);
+void Person::setName(const std::string &pName) {
+    Person::name = pName;
 }
 
-const char *Person::getId() const {
+const std::string &Person::getId() const {
     return id;
 }
 
-void Person::setId(char *pId) {
-    std::strcpy(this->id, pId);
+void Person::setId(const std::string &pId) {
+    Person::id = pId;
 }
 
 std::string Person::toString() {
